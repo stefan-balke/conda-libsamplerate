@@ -1,0 +1,23 @@
+package:
+  name: libsamplerate
+  version: 0.1.8
+
+source:
+  git_url: https://github.com/stefan-balke/libsamplerate.git
+  # git_url: https://github.com/erikd/libsamplerate.git
+
+build:
+  number: 1
+
+requirements:
+  build:
+    - autoconf
+    - automake
+    - libtool
+    - pkg-config
+
+test:
+
+about:
+  home: http://www.mega-nerd.com/SRC/
+  license: Dual (GLP + commercial)
